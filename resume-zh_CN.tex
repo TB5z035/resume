@@ -9,81 +9,76 @@
 % \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 \usepackage{linespacing_fix} % disable extra space before next section
 \usepackage{cite}
+\usepackage{outlines}
 
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+% \includegraphics[width=0.5in]{avatar}
+\name{田倍闻}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \email{tianbeiwen88@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 17786490617} \textperiodcentered\ 
+  \github{https://github.com/TB5zhh}
+  }
+\basicInfo{
+  \faBalanceScale \ GPA: 3.85/4 \textperiodcentered\ 
+  \faUsers \ 年级排名: 30/224 \textperiodcentered\
+  \faLanguage \ 雅思成绩: 7.5/9
+  }
  
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+\section{\faBook\  教育背景}
+\datedsubsection{\textbf{清华大学}, 北京}{2018 -- 2019}
+\textit{本科，已转专业}\ 材料科学与工程
+\datedsubsection{\textbf{清华大学}, 北京}{2019 -- 至今}
+\textit{本科在读}\ 计算机科学与技术，预计 2023 年 6 月毕业
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
-\begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
-\end{itemize}
+\section{\faGraduationCap\ 科研经历}
+\datedsubsection{\textbf{Unsupervised Cross-Task Generalization via Retrieval Augmentation}}{}
+\role{Bill Yuchen Lin, Kangmin Tan, Chris Scott Miller, \textbf{Beiwen Tian}, Xiang Ren}{}
+已被 ACL 2022 Workshop LNLS 接收
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
-\begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
-\begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
-\end{itemize}
-\end{onehalfspacing}
+\datedsubsection{\textbf{VIBUS: Data-efficient 3D Scene Parsing with VIewpoint Bottleneck and Uncertainty-Spectrum Modeling}}{}
+\role{\textbf{Beiwen Tian}, Liyi Luo, Hao Zhao, Guyue Zhou}{}
+ISPRS Journal of Photogrammetry and Remote Sensing 在投
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
-\begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
-\end{itemize}
-\end{onehalfspacing}
+\datedsubsection{\textbf{Language-guided 3D Semantic Style Transfer of 3D Indoor Scenes}}{}
+\role{Bu Jin, \textbf{Beiwen Tian}, Hao Zhao, Guyue Zhou}{}
+ACM Multimedia 2022 Conference 在投
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
+\section{\faServer\ 项目经历}
+\datedsubsection{\textbf{AIR DISCOVER 实验室网站}}{2022年5月}
+\datedsubsection{\textbf{Chatfish 网络即时聊天系统}}{2020年9月}
+\datedsubsection{\textbf{RISC-V流水线CPU的FPGA实现}}{2020年12月}
+% \begin{onehalfspacing}
+%   优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+%   \begin{itemize}
+%     \item 容易定制和扩展
+%     \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
+%     \item 支持 FontAwesome 4.5.0
+%   \end{itemize}
+% \end{onehalfspacing}
 
-\section{\faCogs\ IT 技能}
+\section{\faCogs\ 实习经历}
+\datedsubsection{\textbf{智能产业研究院}, 清华大学}{2021 年9月 -- 至今}
+\role{服务器智能运维}{}
+\datedsubsection{\textbf{计算机科学与技术系}, 清华大学}{2020 年9月 -- 至今}
+\role{《软件工程》课程助教}{}
 % increase linespacing [parsep=0.5ex]
+
+\section{\faTrophy\ 获奖情况}
+\datedline{\textbf{SUMMER AIR 2021夏令营}, 第一名}{2021 年8 月}
+\role{项目}{弱监督条件下的三维场景语义分割}
+
+
+\section{\faCode\ 个人技能}
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
-  \item 平台: Linux
-  \item 开发: xxx
+  \item 技术能力: 熟悉Python、C++、JavaScript、Shell、Linux
+  \item 语言技能: CET4: 632\ /\ CET6: 612
 \end{itemize}
-
-\section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
-
-\section{\faInfo\ 其他}
+% \section{\faInfo\ 其他}
 % increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
-\end{itemize}
 
 %% Reference
 %\newpage
